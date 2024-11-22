@@ -35,13 +35,61 @@
 }
 
 .overview {
-    background-color: black;
-    height: 100px;
+    margin-top: -10px;
 }
 
 .overview h1 {
-    margin: 0; /* Remove extra white space caused by default margin */
+    font-size: 2.5rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
     text-transform: uppercase;
     color: #fff;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.box h2 {
+    color: orange;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.box p{
+    color: #fff;
+    padding: 20px;
+    font-size: 1.3rem;
+}
+
+.box ul li {
+    color: #fff;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+
+#box1 {
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: grey;
+}
+#box2 {
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: grey;
+}
+#box3 {
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: grey;
 }

@@ -1,11 +1,20 @@
-import Navbar from './Navbar.jsx'
-import Overview from './Overview.jsx'
+import Navbar from './Navbar.jsx';
+import Overview from './Overview.jsx';
 
 function App() {
-    return( <>
-                <Navbar />
+    const section = {
+        height: '200vh',
+        backgroundColor: 'black'
+    };
+
+    return (
+        <>
+            <Navbar />
+            <section style={section}>
                 <Overview />
-            </>)
+            </section>
+        </>
+    );
 }
 
-export default App
+export default App;

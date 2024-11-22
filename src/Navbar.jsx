@@ -1,5 +1,6 @@
 import LogoImage from './assets/logo.png'
 import backgroundImage from './assets/bgmain.jpg'
+import Overview from './Overview'
 
 function Navbar() {
     return( <>
@@ -12,9 +13,10 @@ function Navbar() {
                         <li><a href="">Contact Us</a></li>
                     </ul>
                 </div>
-                
+
                 <img src={backgroundImage} id='background-image' alt="background" />
-            </>)
+
+            </>);
 }
 
 export default Navbar
