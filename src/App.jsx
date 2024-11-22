@@ -1,9 +1,10 @@
 import Navbar from './Navbar.jsx';
 import Overview from './Overview.jsx';
+import Gallery from './Gallery.jsx';
 
 function App() {
     const section = {
-        height: '200vh',
+        height: '250vh',
         backgroundColor: 'black'
     };
 
@@ -12,6 +13,7 @@ function App() {
             <Navbar />
             <section style={section}>
                 <Overview />
+                <Gallery />
             </section>
         </>
     );

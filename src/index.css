@@ -93,3 +93,44 @@
     border-radius: 10px;
     background-color: grey;
 }
+
+.gallery h1 {
+    font-size: 2.5rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.gallery .box {
+    display: contents;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.gallery .box .row1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.gallery .box .row2 {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery .box .row3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.box img {
+    margin: 0;
+    height: 300px;
+    width: 405px;
+    border-radius: 10px;
+    margin: 5px;
+}
